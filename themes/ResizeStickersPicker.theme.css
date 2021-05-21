@@ -1,0 +1,18 @@
+/**
+ * @author Albatros
+ * @name ResizeStickersPicker
+ * @version 1.0.0
+ * @description Allows you to enlarge the width of the sticker selector.
+ * @links test => https://google.fr
+ * @changelog Initial Update
+ */
+.module-sticker-picker__body__content {
+    width: 640px!important;
+    grid-template-columns: repeat(8, 1fr)
+}
+.module-sticker-picker__header__packs {
+    width: 595px!important;
+}
+.module-sticker-picker {
+    width: 638px!important;
+}
